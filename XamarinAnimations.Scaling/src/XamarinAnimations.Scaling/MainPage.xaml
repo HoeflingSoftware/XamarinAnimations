@@ -4,11 +4,12 @@
              xmlns:local="clr-namespace:XamarinAnimations.Scaling"
              x:Class="XamarinAnimations.Scaling.MainPage">
 
-    <StackLayout>
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+
+        <Label Text="Hover over the X to rotate" />
+        <Image Source="clear" />
+        
     </StackLayout>
 
 </ContentPage>
