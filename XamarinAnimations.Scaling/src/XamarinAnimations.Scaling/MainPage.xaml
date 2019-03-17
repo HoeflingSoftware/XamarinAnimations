@@ -7,8 +7,12 @@
     <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
         <!-- Place new controls here -->
 
-        <Label Text="Hover over the X to rotate" />
-        <Image Source="clear" />
+        <Label Text="Tap the X to scale" />
+        <Image x:Name="Icon" Source="clear">
+            <Image.GestureRecognizers>
+                <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+            </Image.GestureRecognizers>
+        </Image>
         
     </StackLayout>
 
